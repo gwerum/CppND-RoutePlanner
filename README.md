@@ -1,6 +1,8 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+This repository contains an OSM map based implementation of a route planer using the [A* search algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm) in C++. This project was part of the Udacity Nano Degree program for C++. A starter code for this project was given, the focus of this project has been to implement the search algorithm for the route planer (a simplified version of the route planer known from Google maps).
+
+When running the executable one can decide to either provide a OSM file of a map tile or to use the OSM file stored in this repo. One will be asked then to provide the coordinates of a start and end position, the OSM nodes closest to the provided coordinates will be taken and the fastest route will be computed. The following picture shows a possible result of such a request. 
 
 <img src="map.png" width="600" height="450" />
 
@@ -8,11 +10,12 @@ This repo contains the starter code for the Route Planning project.
 
 When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
 ```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone https://github.com/gwerum/CppND-RoutePlanner.git --recurse-submodules
 ```
 or with SSH:
 ```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone git@github.com:gwerum/CppND-RoutePlanner.git
+ --recurse-submodules
 ```
 
 ## Dependencies for Running Locally
